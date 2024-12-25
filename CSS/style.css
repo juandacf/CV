@@ -2,6 +2,7 @@ html, body {
     margin:0;
     padding:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @media (min-width: 770px){ 
@@ -11,10 +12,51 @@ html, body {
         width:100vw;
         display:flex;
         justify-content: flex-end;
+        background-color: white;
+        
     }
     .pageFeaturesContainer{
         display:flex;
         flex-direction:row;
+        margin-right: 7vw;
+        border:1px black;
+    }
+    .menuItem{
+        margin:1rem;
+        color:black;
+        font-weight: bold;;
+        background-color:white;
+        border:none;
+    }
+    .menuItem:hover{
+        color: #00b4d9;
+        cursor:grab;
+    }
+    .mainSection{
+        width:100vw;
+        height:100vh;
+    }
+
+    .landingPage{
+        background-image: url("../media/landingPageCover.jpg") ;
+        margin:0px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center
+    }
+    .landingTextContainer{
+        margin-top:4rem;
+        color:white;
+        text-align: center;
+    }
+    .socialMediaContainer{
+        display:flex;
+        justify-content:center
+    }
+    .socialMediaIcon{
+        height:3rem;
+        margin: 1rem;
     }
 }
 
