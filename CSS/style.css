@@ -8,7 +8,7 @@ html, body {
 @media (min-width: 770px){ 
     .menuContainer{
         position:fixed;
-        height:5rem;
+        height:4rem;
         width:100vw;
         display:flex;
         justify-content: flex-end;
@@ -37,12 +37,13 @@ html, body {
     }
 
     .landingPage{
-        background-image: url("../media/landingPageCover.jpg") ;
+        background-image: url("../media/landingPageCover.jpg");
+        background-size:cover;
         margin:0px;
         display:flex;
         flex-direction:column;
         justify-content:center;
-        align-items:center
+        align-items:center;
     }
     .landingTextContainer{
         margin-top:4rem;
@@ -56,6 +57,33 @@ html, body {
     .socialMediaIcon{
         height:3rem;
         margin: 1rem;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .socialMediaIcon:hover{
+        background-color: white;
+        border-radius:0.6rem;
+        cursor:grab;
+    }
+    #githubIcon{
+        border-radius: 50%;
+    }
+    .profileContainer{
+        display:flex;
+    }
+    .profileSection1{
+        width:50vw;
+        height:100vh;
+        display:flex;
+        justify-content: center;
+    }
+
+    #profilePicture{
+        margin:1rem;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
+    }
+    .profileSection2{
+        width:50vw;
+        height:100vh;
     }
 }
 
