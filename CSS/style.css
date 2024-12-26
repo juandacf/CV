@@ -13,20 +13,19 @@ html, body {
         display:flex;
         justify-content: flex-end;
         background-color: white;
-        
     }
     .pageFeaturesContainer{
         display:flex;
         flex-direction:row;
-        margin-right: 7vw;
-        border:1px black;
+        margin-right:4vw;
+        gap:1.5rem;
     }
     .menuItem{
-        margin:1rem;
         color:black;
         font-weight: bold;;
         background-color:white;
         border:none;
+        align-self: center;
     }
     .menuItem:hover{
         color: #00b4d9;
