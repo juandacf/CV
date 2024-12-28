@@ -88,6 +88,9 @@ html, body {
         width:35vw;
         height:70vh;
     }
+    .bold {
+        font-weight: bold;;
+    }
 }
 
 @media (min-width:480px) and (max-width:769px){
