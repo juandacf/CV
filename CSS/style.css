@@ -91,6 +91,30 @@ html, body {
     .bold {
         font-weight: bold;;
     }
+    .services{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .servicesContainer{
+        height:70vh;
+        width:80vw;
+        display:flex;
+        flex-direction:column;
+    }
+    .servicesTitle{
+        height:15vh;
+    }
+    .boxescontainer{
+        height:55vh;
+        display:flex;
+        margin-top:10vh;
+    }
+    .servicesBox{
+        width:18vw;
+        margin:2vw;
+
+    }
 }
 
 @media (min-width:480px) and (max-width:769px){
