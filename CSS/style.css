@@ -115,6 +115,18 @@ html, body {
         margin:2vw;
 
     }
+    .resume {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .resumeContainer{
+        height:80vh;
+        width:70vw;
+        margin-top:4vh;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width:480px) and (max-width:769px){
