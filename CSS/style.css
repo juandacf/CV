@@ -21,7 +21,7 @@ html, body {
     }
     .name{
         font-family: "Source Code Pro", serif;
-        font-size: 6rem;
+        font-size: 10vh;;
     }
     .pageFeaturesContainer{
         display:flex;
@@ -91,25 +91,36 @@ html, body {
         width:35vw;
         height:70vh;
         display:flex;
+        flex-direction:row;
         justify-content:center;
+
+    }
+    #actualPicture{
+        max-width: 100%;
     }
     .profileDescription{
         width:35vw;
         height:70vh;
     }
+    .profileItemstext{
+        line-height:1vh ;
+        font-size:2vh;
+    }
     .bold {
-        font-weight: bold;;
+        font-weight: bold;
     }
     .services{
         display:flex;
         justify-content:center;
         align-items:center;
+        background-color: #F0F0F0;
     }
     .servicesContainer{
         height:70vh;
         width:80vw;
         display:flex;
         flex-direction:column;
+
     }
     .servicesTitle{
         height:15vh;
@@ -128,6 +139,7 @@ html, body {
         display:flex;
         align-items:center;
         justify-content:center;
+        
     }
     .resumeContainer{
         height:80vh;
@@ -138,10 +150,17 @@ html, body {
     }
     .shadowsInto{
         font-family: "Shadows Into Light", serif;
-        font-size:3rem;
+        font-size:8vh;
     }
     .sourceCodePro{
         font-family: "Source Code Pro", serif;
+    }
+    .mainTitle{
+        font-size:3vw;
+        color:#B8B8B8;
+    }
+    .unbold{
+        font-weight: lighter;
     }
 }
 
