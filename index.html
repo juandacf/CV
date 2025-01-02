@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <div class="menuContainer">     
+    <div class="menuContainer sourceCodePro">     
         <div class="pageFeaturesContainer">
            <a href="#landingPage" class="menuItem"><button id="homeFeature sourceCodePro" class="menuItem">HOME</button></a>
             <a href="#profilePresentation" class="menuItem"><button id="aboutFeature sourceCodePro" class="menuItem">ABOUT</button></a>
@@ -41,13 +41,18 @@
                 <p class="bold sourceCodePro">Country: <span class="sourceCodePro profileItemstext unbold"> Colombia</span></p>
                 <p class="bold sourceCodePro">e-mail: <span class="sourceCodePro profileItemstext unbold"> juandacf@gmail.com</span></p>
                 <p class="bold sourceCodePro">Phone: <span class="sourceCodePro profileItemstext unbold"> +57 3008307198</span></p>
+                <div class="cvButtonContainer">
+                    <a href="./files/CV-English.pdf"  download="CV-English.pdf"> <button class="downloadButton sourceCodePro bold"> Download Resume English </button> </a>
+                    <a href="./files/CV-Spanish.pdf" class="downloadButton" download="CV-Spanish.pdf"> <button class="downloadButton sourceCodePro bold"> Download Resume Spanish </button> </a>
+                </div>
             </div>
+
         </div>
     </div>
     <div class="services mainSection" id="services">
         <div class="servicesContainer">
             <div class="servicesTitle">
-                <h1 class="servicesH1 mainTitle bold ">What I do..</h1>
+                <h1 class="servicesH1 mainTitle bold sourceCodePro ">What I do..</h1>
             </div>
             <div class="boxescontainer sourceCodePro">
                 <div class="servicesBox">
@@ -77,56 +82,65 @@
             </div>
         </div>
     </div>
-    <div class="resume mainSection" id="resume">
+    <div class="resume mainSection sourceCodePro" id="resume">
         <div class="resumeContainer">
             <div class="resumeElement">
-                <h2>Education</h2>
-                <div>
-                    <h3>Bachelor's Degree in Foreign  Languages Teaching with Emphasis in English</h3>
-                    <p>Universidad Industrial de Santander </p>
-                    <p>Year of Graduation: 2022 </p>
-                    <p>Member of SETRA (Translation seedbed) UIS</p>
+                <div class="resumeTitle">
+                    <div class="resumeIconContainer">
+                        <img src="./media/resumeIcons/mortarboard.png" alt="" class="resumeIcon">
+                    </div>
+                    <div class="resumeMainTitleContainer">
+                        <h2 class="resumeMainTitle">Education</h2>
+                    </div>
                 </div>
-                <div>
-                    <h3>Diploma in Professional skills</h3>
-                    <p>Universidad Industrial de Santander </p>
-                    <p>2021</p>   
+                <div class="resumeItem">
+                    <h3 class="titleResume">Bachelor's Degree in Foreign  Languages Teaching with Emphasis in English</h3>
+                    <p class="resumeText">Universidad Industrial de Santander </p>
+                    <p class="resumeText">Year of Graduation: 2022 </p>
+                    <p class="resumeText">Member of SETRA (Translation seedbed) UIS</p>
                 </div>
-                <div>
-                    <h3>Integral Training in Backend Programming</h3>
-                    <p>Campuslands</p>
-                    <p>September 2024 - Now</p>
+                <div class="resumeItem">
+                    <h3 class="titleResume">Diploma in Professional skills</h3>
+                    <p class="resumeText">Universidad Industrial de Santander </p>
+                    <p class="resumeText">2021</p>   
                 </div>
-                <div>
-                    <h3>Software Analysis and Development</h3>
-                    <p>Servicio Nacional de Aprendizaje</p>
-                    <p>June 2024 - Now</p>
+                <div class="resumeItem">
+                    <h3 class="titleResume">Integral Training in Backend Programming</h3>
+                    <p class="resumeText">Campuslands</p>
+                    <p class="resumeText">September 2024 - Now</p>
+                </div>
+                <div class="resumeItem">
+                    <h3 class="titleResume">Software Analysis and Development</h3>
+                    <p class="resumeText">Servicio Nacional de Aprendizaje</p>
+                    <p class="resumeText">June 2024 - Now</p>
                 </div>
             </div>
             <div class="resumeElement">
-                <h2>Experience</h2>
-                <div>
-                    <h3>English Teaching Assistant</h3>
-                    <p>Instituto Técnico Dámaso Zapata (Bucaramanga)</p>
-                    <p>2021-2022</p>
-                    <p>Delivery of quality class plannings timely, implementation of effective classroom management strategies and creation of standardized assessment instruments for meassuring students' progress.</p>
+                <div class="resumeTitle">
+                    <div class="resumeIconContainer">
+                        <img src="./media/resumeIcons/briefcase.png" alt="" class="resumeIcon">
+                    </div>
+                    <div class="resumeMainTitleContainer">
+                        <h2 class="resumeMainTitle">Experience</h2>
+                    </div>
+
                 </div>
-                <div>
-                    <h3>Customer Service Representative</h3>
-                    <p>Teleperformance</p>
-                    <p>2022</p>
-                    <p> Delivery of fast, friendly and knowledgeable advice for routine questions and service complaints. Revision of files, records, and other documents to respond to customer requests. </p>
+                <div class="resumeItem">
+                    <h3 class="titleResume">English Teaching Assistant</h3>
+                    <p class="resumeText">Instituto Técnico Dámaso Zapata (Bucaramanga)</p>
+                    <p class="resumeText">2021-2022</p>
+                    <p class="resumeText">Delivery of quality class plannings timely, implementation of effective classroom management strategies and creation of standardized assessment instruments for meassuring students' progress.</p>
                 </div>
-                <div>
-                    <h3>Customer Service Representative</h3>
-                    <p>WebHelp</p>
-                    <p>2023-2024</p>
-                    <p> Delivery of fast, friendly and knowledgeable advice for routine questions and service complaints. Revision of files, records, and other documents to respond to customer requests. </p>
+                <div class="resumeItem">
+                    <h3 class="titleResume">Customer Service Representative</h3>
+                    <p class="resumeText">WebHelp</p>
+                    <p class="resumeText">2023-2024</p>
+                    <p class="resumeText"> Delivery of fast, friendly and knowledgeable advice for routine questions and service complaints. Revision of files, records, and other documents to respond to customer requests. </p>
                 </div>
-                <div>
-                    <h3>Freelance Translator</h3>
-                    <p>2022 - Now</p>
-                    <p>Translation of multiple texts from various disciplines (medical, technical and literary) </p>
+                <div class="resumeItem">
+                    <h3 class="titleResume">Freelance Translator</h3>
+                    <p class="resumeText">2022 - Now</p>
+                    <p class="resumeText">Translation of multiple texts from various disciplines (medical, technical and literary) </p>
                 </div>
             </div>
         </div>

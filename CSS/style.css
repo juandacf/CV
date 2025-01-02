@@ -87,6 +87,15 @@ html, body {
         width:70vw;
         display:flex;
     }
+    .downloadButton{
+        height:2rem;
+        margin-right:1.5rem;
+        border:none;
+    }
+    .downloadButton:hover{
+        transform: scale(1.2);
+        cursor:grab;
+    }
     .profilePicture{
         width:35vw;
         height:70vh;
@@ -162,6 +171,43 @@ html, body {
         justify-content:center;
         
     }
+    .resumeTitle{
+        display:flex;
+        flex-direction:row;
+        padding-left: 1rem;   
+    }
+    .resumeMainTitle{
+        margin:0;
+        display:flex;
+    }
+    .resumeMainTitleContainer{
+        display:flex;
+        align-items: center;
+    }
+    .resumeIconContainer{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height:3rem;
+        width:3rem;
+        margin-right:1rem;
+        border-radius: 50%;
+        background-color:#C5C5C5;
+    }
+    .resumeIcon{
+        height:2rem;
+        width:2rem;
+    }
+    .resumeItem{
+        background-color:#F0F0F0;
+        display:flex;
+        flex-direction:column;
+        padding:1rem;
+        margin:1rem;
+    }
+    .resumeItem:hover{
+        background-color: white;
+    }
     .resumeContainer{
         height:80vh;
         width:70vw;
@@ -173,6 +219,9 @@ html, body {
         font-family: "Shadows Into Light", serif;
         font-size:8vh;
     }
+    .titleResume{
+        margin-bottom:0.5rem;
+    }
     .sourceCodePro{
         font-family: "Source Code Pro", serif;
     }
@@ -182,6 +231,9 @@ html, body {
     }
     .unbold{
         font-weight: lighter;
+    }
+    .resumeText{
+        margin:0.3rem;
     }
 }
 
