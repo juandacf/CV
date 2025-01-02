@@ -97,10 +97,13 @@ html, body {
     }
     #actualPicture{
         max-width: 100%;
+        margin:2vw;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     }
     .profileDescription{
         width:35vw;
         height:70vh;
+        margin-left:3vw;
     }
     .profileItemstext{
         line-height:1vh ;
@@ -116,14 +119,18 @@ html, body {
         background-color: #F0F0F0;
     }
     .servicesContainer{
-        height:70vh;
-        width:80vw;
+        height:55vh;
+        width:85vw;
         display:flex;
         flex-direction:column;
 
     }
+    .servicesH1{
+        text-align:center;
+    }
     .servicesTitle{
         height:15vh;
+
     }
     .boxescontainer{
         height:55vh;
@@ -132,8 +139,22 @@ html, body {
     }
     .servicesBox{
         width:18vw;
+        padding:1rem;
         margin:2vw;
-
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .servicesBox:hover{
+        background-color:white
+    }
+    .serviceItemTitle{
+        text-align: center;
+        margin-bottom:0;
+    }
+    .serviceIcon{
+        width:4rem
     }
     .resume {
         display:flex;
@@ -156,8 +177,8 @@ html, body {
         font-family: "Source Code Pro", serif;
     }
     .mainTitle{
-        font-size:3vw;
-        color:#B8B8B8;
+        font-size:4rem;
+        color:#3B3B3B;
     }
     .unbold{
         font-weight: lighter;
