@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <div class="menuContainer sourceCodePro">     
-        <div class="pageFeaturesContainer">
-           <a href="#landingPage" class="menuItem"><button id="homeFeature sourceCodePro" class="menuItem">HOME</button></a>
-            <a href="#profilePresentation" class="menuItem"><button id="aboutFeature sourceCodePro" class="menuItem">ABOUT</button></a>
-            <a href="#services" class="menuItem"><button id="servicesFeature sourceCodePro" class="menuItem">SERVICES</button></a>
-            <a href="#resume" class="menuItem"><button id="resumeFeature sourceCodePro" class="menuItem">RESUME</button></a>
+    <div class="menuContainer sourceCodePro">    
+        <div id="pageFeaturesContainer">
+           <a href="#landingPage" class="menuItem"><button id="homeFeature sourceCodePro" class="menuItem sourceCodePro">HOME</button></a>
+            <a href="#profilePresentation" class="menuItem"><button id="aboutFeature" class="menuItem sourceCodePro">ABOUT</button></a>
+            <a href="#services" class="menuItem"><button id="servicesFeature" class="menuItem sourceCodePro">SERVICES</button></a>
+            <a href="#resume" class="menuItem"><button id="resumeFeature sourceCodePro" class="menuItem sourceCodePro">RESUME</button></a>
         </div>
+        <button id="menuMobile">
+            <img src="./media/menuIcon.png" alt="" class="menuMobileImg">
+        </button> 
     </div>
     <div class="landingPage mainSection" id="landingPage">
         <div class="landingTextContainer">
@@ -69,14 +72,14 @@
                     <img src="./media/servicesIcons/teachings.png" alt="" class="serviceIcon">
                     <h3 class="serviceItemTitle">Foreign Languages Teaching</h3>
                     <p>
-                        I have experience teaching English as a foreign language both in a public school and as a freelancer.
+                        I have experience teaching English as a foreign language.
                     </p>
                 </div>
                 <div class="servicesBox">
                     <img src="./media/servicesIcons/customer-service.png" alt="" class="serviceIcon">
                     <h3 class="serviceItemTitle">Customer Service</h3>
                     <p>
-                        I have experience working as a customer service agent delivering knowledgeable advice and responding to customer requests.
+                        I am a experienced customer service agent.
                     </p>
                 </div>
             </div>
@@ -145,5 +148,6 @@
             </div>
         </div>
     </div>
+    <script src="./JS/app.js"></script>
 </body>
 </html>
