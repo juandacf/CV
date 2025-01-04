@@ -1,7 +1,6 @@
 var mainButton = document.getElementById("menuMobile")
 var actualMenu =  document.getElementById("pageFeaturesContainer")
-var menuMediaQuery = window.matchMedia('(min-width: 772px)')
-
+var menuMediaQuery = window.matchMedia("(max-width: 772px)")
 
 
 
@@ -12,3 +11,4 @@ mainButton.onclick = function () {
         actualMenu.style.display="flex"
     }
 }
+

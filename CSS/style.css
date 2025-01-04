@@ -254,7 +254,7 @@ html, body {
 
 @media (max-width:771px){
     #pageFeaturesContainer{
-        display:flex;
+        display:none;
         flex-direction: column;
         width: 80vw;
         height:15vh;
@@ -367,4 +367,21 @@ html, body {
     .resumeMainTitle{
         text-align: center;
     }
+    .resumeItem{
+        margin:8vw;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+        padding:2vw;
+    }
+    .cvButtonContainer{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bold{
+        font-weight:bold;
+    }
+    .unbold{
+        font-weight: lighter;
+    }
+
 }
